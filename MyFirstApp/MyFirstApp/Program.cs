@@ -7,13 +7,15 @@ Console.WriteLine("Modification 3");
 
 static double GetAverage(int[] numbers)
 {
-    double sume = 0.0;
+
+    double suma = 0.0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        sume += numbers[i];
+        suma += numbers[i];
     }    
     
-    return sume / numbers.Length;
+    return suma / numbers.Length;
+
 }
 
 static int FindMaxValue(int[] array)
